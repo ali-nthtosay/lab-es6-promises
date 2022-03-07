@@ -107,7 +107,7 @@ for(let i=0 ; i< brusselsSprouts.length ; i++){
 console.log(brusselsSproutsPromises);
 
 const allBrusselsSproutsPromises = Promise.all(brusselsSproutsPromises);
-console.log(brusselsSproutsPromises);
+//console.log(brusselsSproutsPromises);
 
 allBrusselsSproutsPromises
   .then((brusselArray) => {
